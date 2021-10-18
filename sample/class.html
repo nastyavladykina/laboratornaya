@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Моя первая страница</h1>
+    <div>
+        <div>Лого</div>
+        <div>Реклама</div>
+    </div>
+    <div>
+        <div>Горизонтальное меню</div>
+    </div>
+    <div>
+        <div>Левый блок</div>
+        <div>Содержимое</div>
+        <div>Правый блок</div>
+    </div>
+
+    <div>
+        <div>Футер</div>
+    </div>
+
+    <img src="" alt="" id="cat1">
+    <p id="cat2"></p>
+    <div id="cat3"></div>
+
+    <script>
+        $('#cat3').on('click', function() {
+            $(this).html('В пустой блок вставим этот текст');
+        });
+    </script>
+    <div id="cat3">В пустой блок вставим этот текст</div>
+
+    <img src="" alt="" class="cat">
+    <p class="cat"></p>
+    <div class="cat"></div>
+
+    <div>class="logo"</div>
+    <div class="line">
+        <div id="logo">Лого</div>
+        <div id="ads">Реклама</div>
+    </div>
+    <div class="line">
+        <nav id="menu">Горизонтальное меню</nav>
+    </div>
+    <div class="line">
+        <aside id="left">Левый блок</aside>
+        <main id="content">Содержимое</main>
+        <aside id="right">Правый блок</aside>
+    </div>
+    <div class="line">
+        <footer id="footer">Футер</footer>
+    </div>
+
+    <div class="cat"></div>
+    <div id="father">
+        <div id="son"></div>
+    </div>
+
+    <div id="son1"></div>
+    <div id="son2"></div>
+
+    <div id="father">
+        <div class="son"></div>
+        <div class="son"></div>
+    </div>
+    #father>.son$*2 TAB 
+    <div id="father">
+        <div class="son1"></div>
+        <div class="son2"></div>
+    </div>
+    #father>.son$$$$*2 TAB 
+
+    #father>.son$$$@4*3 TAB 
+    <div id="father">
+        <div class="son004"></div>
+        <div class="son005"></div>
+        <div class="son006"></div>
+    </div>  
+    
+    #cats{Котики кругом} TAB <div id="cats">Котики кругом</div>
+    <div data-row="4"></div>
+    <div data-text="hello"></div>
+    <div data-hidden=""></div>
+    <div data-row="4" data-text="hello" data-hidden=""></div>
+    dl>(dt+dd)*3 TAB 
+    <d1>
+        <dt></dt>
+        <dd></dd>
+        <dt></dt>
+        <dd></dd>
+        <dt></dt>
+        <dd></dd>
+    </d1>
+
+    <h1>    МЯЧИК</h1>
+    <b>Наша Таня громко плачет:</b><br>
+    <i>Уронила в речку мячик.</i><br>
+    -Тише, Танечка, не плачь:<br>
+    <strike>Не утонет в речке мяч.</strike><br>
+    <b><i>Автор: А. Л. Барто</i></b><br>
+
+    <ol>
+        <li>8:00 - 9:30</li>
+        <li>9:40 - 11:10</li>
+        <li>
+            <ul><li>Перемена 30 минут</li></ul>
+        </li>
+        <li>11:40 - 13:10</li>
+        <li>
+            <ul><li>Перемена 20 минут</li></ul>
+        </li>
+        <li>13:30 - 15:00</li>
+        <li>
+            <ul><li>Перемена 20 минут</li></ul>
+        </li>
+        <li>15:20 - 16:50</li>
+        <li>17:00 - 18:30</li>
+        <li>18:40 - 20:10</li>
+        <li>20:20 - 21:50</li>
+    </ol>
+    
+    <table>
+        <thead>
+            <tr>
+                <td>Номер пары</td>
+                <td>Название предмета</td>
+                <td>Аудитория</td>
+                <td>Преподаватель</td>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Современные информационные технологии</td>
+                <td>216</td>
+                <td>Мачтаков А.В.</td>
+                
+            </tr>
+        </tbody>
+    </table>
+
+    <form action="" method="post">
+        <label for="fio">Фамилия, имя, отчество</label>
+        <input type="text" name="fio" id="fio">
+        <label for="pol">пол</label>
+        <p><input name="pol" type="radio" value="nedzen">
+            Женский</p>
+        <p><input name="dzen" type="radio" value="dzen"> Дзен</p>
+    
+        <input name="pol">
+        <label for="школа">школа</label>
+        <input type="text" name="школа" id="школа">
+        <label for="klass">класс</label>
+        <input type="text" name="klass" id="klass">
+        <input type="text" name="Цвет обложки">
+        <input type="color" name="color">
+
+
+    </form>
+
+    
+
+</body>
+</html>
